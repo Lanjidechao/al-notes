@@ -1,0 +1,130 @@
+<mxfile>
+    <diagram id="yzxhU2_Jz-IFQ0CLaUAh" name="Page-1">
+        <mxGraphModel dx="1374" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="59" value="" style="group;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="113" y="70" width="600" height="610" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="59" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="68" y="59.999999999999886" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="59" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="68" y="210" as="sourcePoint"/>
+                        <mxPoint x="-140" y="200" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="68" y="250"/>
+                            <mxPoint x="68" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="16">
+                    <mxGeometry x="-0.4743" y="-1" relative="1" as="geometry">
+                        <mxPoint x="1" y="14.17" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="59" source="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="165" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="17">
+                    <mxGeometry x="-0.419" y="1" relative="1" as="geometry">
+                        <mxPoint x="16.5" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="是否进入&lt;br&gt;新的批准步骤" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="59">
+                    <mxGeometry y="120" width="136" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="新Step记录字段&lt;br&gt;是否有值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="59">
+                    <mxGeometry y="270" width="136" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="59" source="6" target="10">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-238" y="470" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="22">
+                    <mxGeometry x="-0.2853" y="-2" relative="1" as="geometry">
+                        <mxPoint x="2" y="3.33" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="重新分配审批人" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59">
+                    <mxGeometry x="8" y="435" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="59" source="32">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="70" y="90" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="600" y="315"/>
+                            <mxPoint x="600" y="90"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="审批单个" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59">
+                    <mxGeometry x="440" y="285" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="审批所有" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59">
+                    <mxGeometry x="240" y="435" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="59" source="41" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="42">
+                    <mxGeometry x="-0.36" y="-2" relative="1" as="geometry">
+                        <mxPoint x="2" y="6.19" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="59" source="41" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="47">
+                    <mxGeometry x="-0.2711" relative="1" as="geometry">
+                        <mxPoint x="2.95" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="新Step是否&lt;br&gt;需要所有人审批" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="59">
+                    <mxGeometry x="232" y="270" width="136" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="59" source="6" target="41">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="19">
+                    <mxGeometry x="-0.5949" y="-1" relative="1" as="geometry">
+                        <mxPoint x="24.48" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="&lt;span&gt;申请 / 审批动作&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="59">
+                    <mxGeometry x="8" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;span&gt;结束&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="59">
+                    <mxGeometry x="232" y="135" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;span&gt;结束&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="59">
+                    <mxGeometry x="8" y="550" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="59" source="10" target="49">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="endArrow=none;html=1;" edge="1" parent="59">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="470" as="sourcePoint"/>
+                        <mxPoint x="600" y="470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="" style="endArrow=none;html=1;" edge="1" parent="59">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="600" y="310" as="sourcePoint"/>
+                        <mxPoint x="600" y="470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
